@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+  <head>
+  <meta lang="en">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, maximum-scale=1.0" />
+
+  <!--GOOGLE FONTS-->
+  <link href="https://fonts.googleapis.com/css?family=Righteous" rel="stylesheet">
+
+  <!--FONTAWESOME-->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css"
+  integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+
+  <!--MY CSS-->
+  <link rel="stylesheet" href="styles.css" type="text/css">
+
+  <title>Drumkit</title>
+  </head>
+
+  <body>
+    <div class="container">
+
+      <!--Drumkit container - main -->
+      <div class="drums">
+
+        <h1>Drum Kit</h1>
+
+        <!--Row 1-->
+        <div class="row top">
+          <div class="pad pad1" data-pad="81">Q</div>
+          <div class="pad pad2" data-pad="87">W</div>
+          <div class="pad pad3" data-pad="69">E</div>
+          <div class="pad pad4" data-pad="82">R</div>
+        </div>
+
+        <!--Row 2-->
+        <div class="row mid">
+          <div class="pad pad5" data-pad="65">A</div>
+          <div class="pad pad6" data-pad="83">S</div>
+          <div class="pad pad7" data-pad="68">D</div>
+          <div class="pad pad8" data-pad="70">F</div>
+        </div>
+
+        <!--Row 3-->
+        <div class="row bottom">
+          <div class="pad pad9" data-pad="90">Z</div>
+          <div class="pad pad10" data-pad="88">X</div>
+          <div class="pad pad11" data-pad="67">C</div>
+          <div class="pad pad12" data-pad="86">V</div>
+        </div>
+
+      </div>
+
+    </div>
+
+  <!--JQ-->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <!--MY JS-->
+  <script src="controller.js"></script>
+  </body>
+</html>
